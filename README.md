@@ -15,3 +15,10 @@ To start:
 4. zip the folder and build your app with https://build.phonegap.com (Set your signing key's for iOS)
 
 5. scan the QR-code to install it on your phone
+
+## Credits
+This project is MIT licensed and includes code from:
+jQuery Mobile
+Cordova
+Phonegap Build
+Mobile developer solutions
