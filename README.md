@@ -18,8 +18,8 @@ To start:
 
 ## Credits
 This project is MIT licensed and includes code from:
-jQuery Mobile
 
+jQuery Mobile
 Cordova
 
 Phonegap Build
