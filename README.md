@@ -1,5 +1,5 @@
-PhoneGap-Kickstarter-App
-========================
+PhoneGap Kickstarter App
+---
 
 This is all you need if you want to start developing an app with PhoneGap (Cordova). jQuery Mobile is implemented as an example. You can easily change it with for example Sencha Touch. 
 After your app is finished, it is pre-configured to build it at build.phonegap.com for several platforms.

@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width" />
+		<title>Kick Start App</title>
+		<script src="phonegap.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" href="assets/js/jquery.mobile/jquery.mobile-1.1.0.min.css" />
+		<link rel="stylesheet" href="assets/css/app.css" /> 
+			
+		<script src="assets/js/jquery.mobile/jquery-1.6.4.min"></script>
+		<script src="assets/js/jquery.mobile/jquery.mobile-1.1.0.min.js"></script>
+		<script type="text/javascript" charset="utf-8" src="assets/js/app.js"></script>
+	</head>
+
+	<body onload="init();">
+	<div data-role="page" id="page-home" class="type-interior" data-theme="d">
+	<div data-role="header" data-theme="d" data-position="fixed" data-id="foo">
+		<h1>About</h1>
+ 		<a href="index.html" data-transition="none" data-icon="home" data-iconpos="notext" id="intro">Home</a>
+	</div>
+
+	<div data-role="content" data-theme="d">			
+		<div class="content-primary">
+		    <div class="api-div" id="api-intro">
+		        <h2>About Us</h2>
+				<p>This is just a quick demo of a minimal page.</p>	
+			</div>		    
+		</div>
+	</div>
+	<div data-role="footer" class="nav-glyphish-example" data-id="foo1" data-position="fixed" data-theme="d">
+		<div data-role="navbar" class="nav-glyphish-example" data-theme="d">
+			<ul>
+				<li><a href="index.html" data-transition="none" data-prefetch="true" data-theme="d" id="chat" data-icon="custom" >Home</a></li>
+				<li><a href="list.html" data-transition="none" data-prefetch="true" data-theme="d" id="list" data-icon="custom" >Info</a></li>
+				<li><a href="about.html" data-transition="none" data-prefetch="false" data-theme="d" id="about" data-icon="custom" class="ui-btn-active ui-state-persist">About</a></li>
+			</ul>
+		</div>
+	</div>
+	</div>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns		= "http://www.w3.org/ns/widgets"
+	xmlns:gap	= "http://phonegap.com/ns/1.0"
+	id		= "com.phonegap.getting.started"
+	version 	= "1.0.0">
+
+	<name>PhoneGap Kickstarter</name>
+
+	<description>
+		PhoneGap template with jQuery Mobile
+	</description>
+
+	<author href="http://yusufarslan.net"
+		email="info@yusufarslan.net">
+		Yusuf Arslan
+	</author>
+
+	<!-- Icons for specific dimensions for different devices -->
+	<icon src="assets/img/icons/72.png" gap:role="default" />
+	<icon src="assets/img/icons/36.png" width="36" height="36"/>
+	<icon src="assets/img/icons/48.png" width="48" height="48"/>
+	<icon src="assets/img/icons/57.png" width="57" height="57"/>
+	<icon src="assets/img/icons/72.png" width="72" height="72"/>
+	<icon src="assets/img/icons/114.png" width="114" height="114"/>
+	
+	<!-- Splash screens for specific dimensions for different devices -->
+	<gap:splash src="assets/img/splashes/splash.png"/>
+	<gap:splash src="assets/img/splashes/mdpi.png" width="480" height="800"/>
+	<gap:splash src="assets/img/splashes/retina.png" width="640" height="960"/>
+
+	<!-- Device Permissions -->
+	<feature name="http://api.phonegap.com/1.0/battery"/>
+	<feature name="http://api.phonegap.com/1.0/geolocation"/>
+	<feature name="http://api.phonegap.com/1.0/network"/>
+	<feature name="http://api.phonegap.com/1.0/camera"/>
+	<feature name="http://api.phonegap.com/1.0/contacts"/>
+	<feature name="http://api.phonegap.com/1.0/file"/>
+	<feature name="http://api.phonegap.com/1.0/media"/>
+	<feature name="http://api.phonegap.com/1.0/notification"/>
+	<feature name="http://api.phonegap.com/1.0/device"/>
+
+	<preference name="orientation" value="portrait" />
+</widget>
