@@ -20,6 +20,7 @@ To start:
 This project is MIT licensed and includes code from:
 
 jQuery Mobile
+
 Cordova
 
 Phonegap Build
